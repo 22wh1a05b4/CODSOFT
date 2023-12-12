@@ -1,0 +1,13 @@
+import random
+
+def gen_Random_password(string):
+   s = random.choices(string, k=n)
+   x=''.join(s)
+   return (x)
+
+print("Please enter the length of the password:")
+n = int(input())
+string="ABCDEFGHIJKLMNOPQRSTabcdefghijklmnopqrst123456789#"
+
+result=gen_Random_password(string)
+print("your password is ",result)
