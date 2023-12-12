@@ -1,0 +1,23 @@
+def Calculator(ch):
+  if ch=='+':
+    return (x+y)
+  elif ch=='-':
+    return (x-y)
+  elif ch=='*':
+    return (x*y)
+  elif ch=='/':
+    return (x/y)
+  elif ch=='%':
+    return (x%y)
+  else:
+    return 0;
+
+print("Enter number1:")
+x=int(input())
+print("Enter number2:")
+y=int(input())
+print("Enter your choice:")
+ch=input()
+
+result=Calculator(ch)
+print("Result=",result)
